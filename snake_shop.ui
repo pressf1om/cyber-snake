@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>323</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>323</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>323</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color:#1a1a1a</string>
+   </property>
+   <widget class="QLabel" name="label_snake_shop">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>741</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#1a1a1a;
+	border-radius:10px;
+	border:3px solid #4f4f4f;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Snake shop&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>120</y>
+      <width>531</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="0">
+      <widget class="QPushButton" name="buy_">
+       <property name="styleSheet">
+        <string notr="true"> .QPushButton{
+	background-color:#1a1a1a;
+	border-radius:10px;
+	border:3px solid #4f4f4f;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+}
+.QPushButton:hover{
+ 	background-color:#272727;
+	color:#095296;
+ }
+.QPushButton:pressed {
+	border:2px solid #095296;
+}</string>
+       </property>
+       <property name="text">
+        <string>Buy skins</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="descrip_">
+       <property name="styleSheet">
+        <string notr="true"> .QPushButton{
+	background-color:#1a1a1a;
+	border-radius:10px;
+	border:3px solid #4f4f4f;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+}
+.QPushButton:hover{
+ 	background-color:#272727;
+	color:#095296;
+ }
+.QPushButton:pressed {
+	border:2px solid #095296;
+}</string>
+       </property>
+       <property name="text">
+        <string>Description</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="check_my_skins">
+       <property name="styleSheet">
+        <string notr="true"> .QPushButton{
+	background-color:#1a1a1a;
+	border-radius:10px;
+	border:3px solid #4f4f4f;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+}
+.QPushButton:hover{
+ 	background-color:#272727;
+	color:#095296;
+ }
+.QPushButton:pressed {
+	border:2px solid #095296;
+}</string>
+       </property>
+       <property name="text">
+        <string>View my skins</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="balance_">
+       <property name="styleSheet">
+        <string notr="true"> .QPushButton{
+	background-color:#1a1a1a;
+	border-radius:10px;
+	border:3px solid #4f4f4f;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+}
+.QPushButton:hover{
+ 	background-color:#272727;
+	color:#095296;
+ }
+.QPushButton:pressed {
+	border:2px solid #095296;
+}</string>
+       </property>
+       <property name="text">
+        <string>Check balance</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="menu_pas">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>70</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> .QPushButton{
+	background-color:#1a1a1a;
+	border-radius:10px;
+	border:3px solid #4f4f4f;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+}
+.QPushButton:hover{
+ 	background-color:#272727;
+	color:#095296;
+ }
+.QPushButton:pressed {
+	border:2px solid #095296;
+}</string>
+    </property>
+    <property name="text">
+     <string>Menu</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
