@@ -16,10 +16,6 @@ The project has 2 main files. The first file is the game itself. The second file
 6. Time
 7. Requests 2.25.1
 8. PyAutoGUI 0.9.52
-
-
-    Technologies that were used for the store:
-
 11. Time
 12. PyQt5 5.15.2 (uic, QtCore, QtGui)
 13. PyQt5.QtCore (Qt)
