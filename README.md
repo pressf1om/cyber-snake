@@ -1,33 +1,5 @@
 Cyber snake 2077
 
-    Russian version:
-
-Описание:
-Прокачанная змейка на Pygame.
-
-Особенности:
-В проекте 2 главных файла. Первый файл - это сама игра. Второй файл - это магазин скинов для змейки.
-
-    Технологии, которые были использованы для змейки:
-
-1. Sys
-2. os
-3. Pathlib, Path
-4. Pygame 2.0.1
-5. Random 2 1.0.1
-6. Time
-7. Requests 2.25.1
-8. PyAutoGUI 0.9.52
-
-
-	Технологии, которые были использованы для магазина:
-11. Time
-12. PyQt5 5.15.2 (uic, QtCore, QtGui)
-13. PyQt5.QtCore (Qt)
-14. PyQt5.QtWidgets (QApplication, QMainWindow)
-
-    English version:
-
 Description:
 A pumped-up snake on a wad.
 
